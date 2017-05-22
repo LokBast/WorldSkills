@@ -136,12 +136,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SQLDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="test.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="test.Designer.cs">
-      <DependentUpon>test.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="aboutInf.resx">
       <DependentUpon>aboutInf.cs</DependentUpon>
     </EmbeddedResource>
