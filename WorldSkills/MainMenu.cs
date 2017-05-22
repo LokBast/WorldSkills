@@ -214,5 +214,12 @@ namespace WorldSkills
         {
             Application.Exit();
         }
+
+        private void registerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            registrationOnMarathon pg5 = new registrationOnMarathon();
+            pg5.Show();
+            this.Hide();
+        }
     }
 }

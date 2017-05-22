@@ -125,6 +125,12 @@
     <Compile Include="registrationMenu.Designer.cs">
       <DependentUpon>registrationMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="registrationOnMarathon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrationOnMarathon.Designer.cs">
+      <DependentUpon>registrationOnMarathon.cs</DependentUpon>
+    </Compile>
     <Compile Include="runnerMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="registrationMenu.resx">
       <DependentUpon>registrationMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrationOnMarathon.resx">
+      <DependentUpon>registrationOnMarathon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="runnerMenu.resx">
       <DependentUpon>runnerMenu.cs</DependentUpon>
